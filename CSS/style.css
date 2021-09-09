@@ -1,1 +1,25 @@
-body
+
+body {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+/*ul {
+    display: flex;
+    margin-left: 43%;
+}*/
+
+.fote {
+    font-size: 13px;
+    color: gray;
+    margin: 0;
+}
+a {
+    color: antiquewhite;
+}
+
+.bottom {
+    font-family: "arial", serif ;
+    color: lightgray;
+
+}
