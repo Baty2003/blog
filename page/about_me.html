@@ -4,14 +4,16 @@
     <title>Обо мне</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../source/favicon.png" type="image/x-icon">
     <style>
         main {
-            padding-top: 30px;
-            padding-bottom: 30px;
+            padding-left: 18%;
+            padding-right: 18%;
         }
-        .description {
+        main p,h2 {
             text-align: left;
         }
+
     </style>
 </head>
 
@@ -27,16 +29,30 @@
     </header>
 
     <main>
-        <table>
-            <tr>
-                <td><img src="../source/my_photo.jpg" alt="Моя фотография" width="300" align="left" hspace="100"></td>
-                <td><p class="description">Меня зовут Олег, я учусь в колледже УРТК им.Попова в Екатеринбурге по направлению <em>Программирование в компьютерных системах.</em>
-                    Сейчас я учусь на 3-ем курсе и у нас начался предмет <em>Веб-ориентированное программирование</em>.
-                Я для себя решил, что постараюсь досрочно закончить этот предмет, для того чтобы попытаться устроиться на работу.
-                Почти каждый день я сижу и словом за слово, тегом за тегом хотя бы чуть-чуть улучшаю свой блог.
-                </p></td>
-            </tr>
-        </table>
+
+        <h1>Обо мне</h1>
+        <img src="../source/my_photo.jpg" alt="Моя фотография" width="800" height="600" align="center">
+
+        <h2>Немного о себе: </h2>
+        <p>Меня зовут Олег, я учусь в колледже УРТК им.Попова в Екатеринбурге по направлению <em>Программирование в компьютерных системах.</em>
+            Сейчас я учусь на 3-ем курсе и у нас начался предмет <em>Веб-ориентированное программирование</em>.
+            Я для себя решил, что постараюсь досрочно закончить этот предмет, для того чтобы попытаться устроиться на работу.
+            Почти каждый день я сижу и словом за слово, тегом за тегом хотя бы чуть-чуть улучшаю свой блог.
+        </p>
+
+        <h2>Чем я могу быть полезен:</h2>
+        <p>В процессе</p>
+        <h2>Мои навыки:</h2>
+        <dl class="skills">
+            <dt>HTML</dt>
+            <!-- Добавьте атрибуты style тегам div ниже -->
+            <dd><div class="skills-level skills-level-ok" style="width: 60%;">60%</div></dd>
+            <dt>CSS</dt>
+            <dd><div class="skills-level skills-level-ok" style="width: 40%;">40%</div></dd>
+            <dt>JS</dt>
+            <dd><div class="skills-level skills-level-ok" style="width: 0;">0%</div></dd>
+        </dl>
+
     </main>
 
     <footer>

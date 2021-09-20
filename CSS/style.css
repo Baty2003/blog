@@ -2,17 +2,18 @@
 
 body {
     font-family: "Montserrat", serif;
-    width: 100%;
+    width: 99%;
     color: white;
     text-align: center;
     height: 100%;
-    background-size: cover;
-    background-image: url("../source/background.jpg");
+    background: linear-gradient(to top, #3c2b42, #404079, #5454b6);
 }
 
-main {
+main{
     padding: 10px 100px;
+
 }
+
 
 
 .topnav {
@@ -68,4 +69,40 @@ a {
     font-family: "arial", serif ;
     color: lightgray;
 
+}
+
+.skills dd {
+    margin: 0;
+    margin-bottom: 10px;
+    border: 1px solid #47bb52;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+
+.skills-level {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4470c4;
+}
+
+.skills-level-ok {
+    background-color: #47bb52;
+    border-radius: 10px;
+}
+dt {
+    text-align: left;
+}
+footer{
+    padding-top: 10px;
+}
+
+section {
+    text-align: left;
+    height: 200px;
+    border: 1px solid navajowhite;
+}
+
+section h2 {
+    padding: 5px;
 }
