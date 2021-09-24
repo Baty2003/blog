@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "BebasNeue-Regualar";
+    src: url("BebasNeue-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+hr{
+    border: 10px solid #0096ff;
+    border-radius: 10px;
+    margin:0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.image{
+    display: block;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+main .image{
+    border-radius: 50px;
+    border: antiquewhite 3px solid;
+}
+section{
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 20px 20% 20px;
+    padding: 20px;
+    border: 3px solid #0096ff;
+    border-radius: 50px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width:300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.WEB {
+    transform: rotate(-90deg);
+    font-family: "Arial Black";
+    font-size: 30px;
+    color: #0096ff;
+
+}
+
+.UNION{
+    transform: rotate(90deg);
+    font-family: "Arial Black";
+    font-size: 30px;
+    margin-left: -20px;
+    color: #0096ff;
+}
+
+
+
+.description-start{
+    margin-top:auto;
+    width: 200px;
+}
+
+.description-end{
+    margin-top:auto;
+    width: 200px;
+}
