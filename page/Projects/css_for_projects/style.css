@@ -16,6 +16,10 @@ header{
     padding: 0;
 }
 
+.main .image{
+    display: inline-block;
+}
+
 .image{
     display: block;
     margin: 0 auto;
